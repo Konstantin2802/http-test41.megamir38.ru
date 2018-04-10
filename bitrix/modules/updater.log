@@ -1,0 +1,733 @@
+2016-09-01 06:12:12 -  - exec CUpdateClient::GetUpdatesList
+2016-09-01 06:12:12 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:12:12 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.11&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.11&bitm_compression=16.0.0&bitm_clouds=16.0.0&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.3&bitm_iblock=16.0.4&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.0&bitm_search=16.0.0&bitm_blog=16.5.0&bitm_form=15.0.2&bitm_fileman=16.5.0&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:12:12 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:12:12 -  - TIME GetUpdatesList(request) 0.192 sec
+2016-09-01 06:12:12 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:43 -  - exec CUpdateClient::ActivateLicenseKey
+2016-09-01 06:13:43 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:13:43 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.11&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.11&bitm_compression=16.0.0&bitm_clouds=16.0.0&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.3&bitm_iblock=16.0.4&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.0&bitm_search=16.0.0&bitm_blog=16.5.0&bitm_form=15.0.2&bitm_fileman=16.5.0&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&query_type=activate
+2016-09-01 06:13:43 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:13:43 -  - TIME ActivateLicenseKey(request) 0.452 sec
+2016-09-01 06:13:43 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:43 - CUALK - License key activated successfully!
+2016-09-01 06:13:43 - UPD_SUCCESS - Licence activated
+2016-09-01 06:13:44 -  - exec CUpdateClient::GetUpdatesList
+2016-09-01 06:13:44 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:13:44 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.11&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.11&bitm_compression=16.0.0&bitm_clouds=16.0.0&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.3&bitm_iblock=16.0.4&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.0&bitm_search=16.0.0&bitm_blog=16.5.0&bitm_form=15.0.2&bitm_fileman=16.5.0&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:13:44 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:13:44 -  - TIME GetUpdatesList(request) 0.243 sec
+2016-09-01 06:13:44 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:47 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:13:47 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:13:47 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.11&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.11&bitm_compression=16.0.0&bitm_clouds=16.0.0&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.3&bitm_iblock=16.0.4&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.0&bitm_search=16.0.0&bitm_blog=16.5.0&bitm_form=15.0.2&bitm_fileman=16.5.0&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:13:47 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:13:48 -  - TIME LoadModulesUpdates(request) 0.189 sec
+2016-09-01 06:13:48 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:48 - S - STEP
+2016-09-01 06:13:48 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:13:48 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:13:48 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:48 -  - loadFile
+2016-09-01 06:13:49 - U - RETURN
+2016-09-01 06:13:49 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:13:49 -  - TIME UnGzipArchive 0.123 sec
+2016-09-01 06:13:49 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710429/main/updater16.0.12.php'
+2016-09-01 06:13:49 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710429/main/updater16.0.12.php': CopyFiles(install/components, components)
+2016-09-01 06:13:49 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710429/main/updater16.0.12.php': CopyFiles(install/css, css)
+2016-09-01 06:13:49 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710429/main/updater16.0.12.php': CopyFiles(install/js, js)
+2016-09-01 06:13:49 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710429/main/updater16.0.12.php': CopyFiles(install/panel, panel)
+2016-09-01 06:13:49 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710429/main/updater16.0.12.php': CopyFiles(install/gadgets, gadgets)
+2016-09-01 06:13:49 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710429/main/updater16.0.12.php': Query(DELETE FROM b_user_counter WHERE CODE LIKE '**L%' AND TIMESTAMP_X = '3000-01-01 00:00:00', )
+2016-09-01 06:13:49 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710429/main/updater16.0.12.php': Query(ALTER TABLE b_user_counter MODIFY SENT char(1) null default '0', )
+2016-09-01 06:13:49 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710429/main/updater16.0.12.php': Query(, )
+2016-09-01 06:13:49 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710429/main/updater16.0.12.php': Query(UPDATE b_user_counter SET SENT = '0' WHERE SENT IS NULL, )
+2016-09-01 06:13:49 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710429/main/updater16.0.12.php': Query(ALTER TABLE b_user_field_confirm MODIFY DATE_CHANGE timestamp, )
+2016-09-01 06:13:49 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710429/main/updater16.0.12.php': Query(ALTER TABLE b_module MODIFY DATE_ACTIVE timestamp, )
+2016-09-01 06:13:49 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710429/main/updater16.0.12.php': Query(ALTER TABLE b_module_to_module MODIFY TIMESTAMP_X timestamp, )
+2016-09-01 06:13:49 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710429/main/updater16.0.12.php': Query(ALTER TABLE b_file MODIFY TIMESTAMP_X timestamp, )
+2016-09-01 06:13:49 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710429/main/updater16.0.12.php': Query(ALTER TABLE b_event_log MODIFY TIMESTAMP_X timestamp, )
+2016-09-01 06:13:49 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710429/main/updater16.0.12.php': Query(ALTER TABLE b_user_hit_auth MODIFY TIMESTAMP_X timestamp, )
+2016-09-01 06:13:49 -  - TIME UpdateStepModules 0.462 sec
+2016-09-01 06:13:49 - UPD_SUCCESS - Updated: main (16.0.12)<br><li>Исправлена проблема с показом загруженных картинок с расширением .svg. <li>Оптимизирован показ свойства \"Привязка к разделам с автозаполнением\". <li>В инсталлятор добавлена проверка настроек PHP date.timezone и JSON. <li>Исправлен ряд интерфейсных ошибок. <li>Улучшена совместимость с PHP 7. <li>Улучшена совместимость с Mysql 5.7. <li>Разработчикам: композит: для страниц, в которых отключен аяксовый хит (setAutoUpdate(false)), добавилась возможность указать время жизни кеша (setAutoUpdateTTL). 
+2016-09-01 06:13:50 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:13:50 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:13:50 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.12&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.12&bitm_compression=16.0.0&bitm_clouds=16.0.0&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.3&bitm_iblock=16.0.4&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.0&bitm_search=16.0.0&bitm_blog=16.5.0&bitm_form=15.0.2&bitm_fileman=16.5.0&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:13:50 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:13:50 -  - TIME LoadModulesUpdates(request) 0.2 sec
+2016-09-01 06:13:50 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:50 - S - STEP
+2016-09-01 06:13:50 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:13:50 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:13:50 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:50 -  - loadFile
+2016-09-01 06:13:51 - U - RETURN
+2016-09-01 06:13:51 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:13:51 -  - TIME UnGzipArchive 0.037 sec
+2016-09-01 06:13:51 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710431/main/updater16.0.13.php'
+2016-09-01 06:13:51 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710431/main/updater16.0.13.php': CopyFiles(install/components, components)
+2016-09-01 06:13:51 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710431/main/updater16.0.13.php': CopyFiles(install/js, js)
+2016-09-01 06:13:51 -  - TIME UpdateStepModules 0.074 sec
+2016-09-01 06:13:51 - UPD_SUCCESS - Updated: main (16.0.13)<br><li>Исправлен ряд интерфейсных ошибок.
+2016-09-01 06:13:51 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:13:51 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:13:51 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_compression=16.0.0&bitm_clouds=16.0.0&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.3&bitm_iblock=16.0.4&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.0&bitm_search=16.0.0&bitm_blog=16.5.0&bitm_form=15.0.2&bitm_fileman=16.5.0&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:13:51 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:13:51 -  - TIME LoadModulesUpdates(request) 0.193 sec
+2016-09-01 06:13:51 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:51 - S - STEP
+2016-09-01 06:13:51 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:13:51 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:13:51 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:51 -  - loadFile
+2016-09-01 06:13:52 - U - RETURN
+2016-09-01 06:13:52 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:13:52 -  - TIME UnGzipArchive 0.104 sec
+2016-09-01 06:13:52 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710432/main/updater16.0.14.php'
+2016-09-01 06:13:52 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710432/main/updater16.0.14.php': CopyFiles(install/components, components)
+2016-09-01 06:13:52 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710432/main/updater16.0.14.php': CopyFiles(install/css, css)
+2016-09-01 06:13:52 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710432/main/updater16.0.14.php': CopyFiles(install/js, js)
+2016-09-01 06:13:52 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710432/main/updater16.0.14.php': CopyFiles(install/panel, panel)
+2016-09-01 06:13:52 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710432/main/updater16.0.14.php': Query(update b_user_option set user_id=0 where user_id is null, )
+2016-09-01 06:13:52 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710432/main/updater16.0.14.php': Query(delete o1 FROM b_user_option o1, b_user_option o2 WHERE o1.id > o2.id AND o1.user_id = o2.user_id and o1.category=o2.category and o1.name=o2.name, )
+2016-09-01 06:13:52 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710432/main/updater16.0.14.php': Query(drop index ix_user_option_user on b_user_option, )
+2016-09-01 06:13:53 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710432/main/updater16.0.14.php': Query(ALTER TABLE b_user_option MODIFY USER_ID int not null, )
+2016-09-01 06:13:53 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710432/main/updater16.0.14.php': Query(CREATE UNIQUE INDEX ux_user_category_name ON b_user_option (USER_ID, CATEGORY, NAME), )
+2016-09-01 06:13:53 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710432/main/updater16.0.14.php': Query(alter table b_event_attachment add column IS_FILE_COPIED char(1) not null default 'Y', )
+2016-09-01 06:13:53 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710432/main/updater16.0.14.php': Query(, )
+2016-09-01 06:13:53 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710432/main/updater16.0.14.php': Query(, )
+2016-09-01 06:13:53 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710432/main/updater16.0.14.php': Query(, )
+2016-09-01 06:13:53 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710432/main/updater16.0.14.php': Query(ALTER TABLE b_rating_rule
+			MODIFY CONDITION_CONFIG text null,
+			MODIFY ACTION_CONFIG text null, )
+2016-09-01 06:13:53 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710432/main/updater16.0.14.php': Query(ALTER TABLE b_checklist MODIFY TESTER varchar(255), )
+2016-09-01 06:13:53 -  - TIME UpdateStepModules 0.818 sec
+2016-09-01 06:13:53 - UPD_SUCCESS - Updated: main (16.0.14)<br><b>Композитный сайт</b> &mdash; Новый режим \"<u>Автокомпозит</u>\": все неадаптированные компоненты автоматически создают динамические области с заглушкой в виде своего содержимого. Перед включением этого режима необходимо очистить кеш компонентов. &mdash; Настройка \"<u>Режим перезаписи кеша</u>\": стандартный режим, стандартный режим с задержкой перезаписи и режим без фонового ajax-запроса. &mdash; Настройка \"<u>Голосование шаблона компонента по умолчанию</u>\" позволяет указать, как голосуют все неадаптированные шаблоны проекта. Данный параметр можно переопределить в настройках конкретного компонента. &mdash; Новый алгоритм обновления динамических областей. Если контент заглушки не изменился при фоновом ajax-запросе, данные динамической области не приходят и не обновляются. &mdash; Новый алгоритм разметки динамических областей. Вместо div-контейнера, создается пара невидимых тегов, не влияющих на верстку страницы. &mdash; Протокол HTTPS поддерживается по умолчанию. &mdash; Добавлена настройка отключения кнопки \"Быстро с 1С-Битрикс\". &mdash; Срок действия лицензии теперь не влияет на работу композитного сайта. &mdash; Настройка \"Параметры URL, при которых не будет работать композитный режим\". &mdash; Оптимизирован механизм создания кеша для highload-проектов. &mdash; Новая настройка \"Игнорировать следующие параметры URL\" позволяет не учитывать определенные параметры в адресе страницы (например, utm_source, fb_action_ids и др.) &mdash; HTML-кеширование заменено технологией \"Композитный сайт\". Для редакции \"Первый сайт\" необходимо очистить кеш компонентов. <li>Исправлен ряд интерфейсных ошибок. <li>Доработки и исправления в мобильном шаблоне main.interface.form. <li>Исправлена возможная проблема дублирования записей настроек пользователей. <li>При загрузке решения из Marketplace через мастер установки продукта теперь скачиваются все доступные обновления. <li>Исправлена ошибка загрузки картинок в публичном разделе сайта. <li>Разработчикам: класс Bitrix\\Main\\Web\\HttpClient теперь принимает опции по умолчанию из настроек конфигурации \"http_client_options\". 
+2016-09-01 06:13:53 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:13:53 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:13:53 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.14&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.14&bitm_compression=16.0.0&bitm_clouds=16.0.0&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.3&bitm_iblock=16.0.4&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.0&bitm_search=16.0.0&bitm_blog=16.5.0&bitm_form=15.0.2&bitm_fileman=16.5.0&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:13:53 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:13:54 -  - TIME LoadModulesUpdates(request) 0.206 sec
+2016-09-01 06:13:54 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:54 - S - STEP
+2016-09-01 06:13:54 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:13:54 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:13:54 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:54 -  - loadFile
+2016-09-01 06:13:54 - U - RETURN
+2016-09-01 06:13:54 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:13:54 -  - TIME UnGzipArchive 0.011 sec
+2016-09-01 06:13:54 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710434/fileman/updater16.5.1.php'
+2016-09-01 06:13:54 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710434/fileman/updater16.5.1.php': CopyFiles(install/js, js)
+2016-09-01 06:13:54 -  - TIME UpdateStepModules 0.015 sec
+2016-09-01 06:13:54 - UPD_SUCCESS - Updated: fileman (16.5.1)<br><li>Исправлена ошибка некорректного цитирования ссылок и упоминаний сотрудников в визуальном редакторе. <li>Исправлена ошибка отображения редатора на некотором содержимом. <li>Исправлен ряд интерфейсных ошибок. 
+2016-09-01 06:13:55 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:13:55 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:13:55 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.14&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.14&bitm_compression=16.0.0&bitm_clouds=16.0.0&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.3&bitm_iblock=16.0.4&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.0&bitm_search=16.0.0&bitm_blog=16.5.0&bitm_form=15.0.2&bitm_fileman=16.5.1&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:13:55 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:13:55 -  - TIME LoadModulesUpdates(request) 0.211 sec
+2016-09-01 06:13:55 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:55 - S - STEP
+2016-09-01 06:13:55 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:13:55 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:13:55 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:55 -  - loadFile
+2016-09-01 06:13:56 - U - RETURN
+2016-09-01 06:13:56 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:13:56 -  - TIME UnGzipArchive 0.016 sec
+2016-09-01 06:13:56 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710436/fileman/updater16.5.2.php'
+2016-09-01 06:13:56 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710436/fileman/updater16.5.2.php': CopyFiles(install/js, js)
+2016-09-01 06:13:56 -  - TIME UpdateStepModules 0.021 sec
+2016-09-01 06:13:56 - UPD_SUCCESS - Updated: fileman (16.5.2)<br><li>Доработки модуля для корректной работы с Автокомпозитным режимом. 
+2016-09-01 06:13:56 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:13:56 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:13:56 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.14&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.14&bitm_compression=16.0.0&bitm_clouds=16.0.0&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.3&bitm_iblock=16.0.4&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.0&bitm_search=16.0.0&bitm_blog=16.5.0&bitm_form=15.0.2&bitm_fileman=16.5.2&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:13:56 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:13:56 -  - TIME LoadModulesUpdates(request) 0.211 sec
+2016-09-01 06:13:56 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:56 - S - STEP
+2016-09-01 06:13:56 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:13:57 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:13:57 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:57 -  - loadFile
+2016-09-01 06:13:57 - U - RETURN
+2016-09-01 06:13:57 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:13:57 -  - TIME UnGzipArchive 0.008 sec
+2016-09-01 06:13:57 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710437/fileman/updater16.5.3.php'
+2016-09-01 06:13:57 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710437/fileman/updater16.5.3.php': CopyFiles(install/components, components)
+2016-09-01 06:13:57 -  - TIME UpdateStepModules 0.019 sec
+2016-09-01 06:13:57 - UPD_SUCCESS - Updated: fileman (16.5.3)<br><li>Исправление компонентов Google Maps.
+2016-09-01 06:13:57 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:13:57 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:13:57 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.14&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.14&bitm_compression=16.0.0&bitm_clouds=16.0.0&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.3&bitm_iblock=16.0.4&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.0&bitm_search=16.0.0&bitm_blog=16.5.0&bitm_form=15.0.2&bitm_fileman=16.5.3&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:13:57 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:13:57 -  - TIME LoadModulesUpdates(request) 0.196 sec
+2016-09-01 06:13:57 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:57 - S - STEP
+2016-09-01 06:13:57 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:13:57 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:13:57 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:57 -  - loadFile
+2016-09-01 06:13:58 - U - RETURN
+2016-09-01 06:13:58 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:13:58 -  - TIME UnGzipArchive 0.051 sec
+2016-09-01 06:13:58 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710438/fileman/updater16.5.4.php'
+2016-09-01 06:13:58 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710438/fileman/updater16.5.4.php': CopyFiles(install/js, js)
+2016-09-01 06:13:58 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710438/fileman/updater16.5.4.php': CopyFiles(install/components, components)
+2016-09-01 06:13:58 -  - TIME UpdateStepModules 0.199 sec
+2016-09-01 06:13:58 - UPD_SUCCESS - Updated: fileman (16.5.4)<br><li>Доработан режим очистки при вставке содержимого в визуальный редактор. <li>Исправлен ряд ошибок в модуле.
+2016-09-01 06:13:59 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:13:59 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:13:59 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.14&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.14&bitm_compression=16.0.0&bitm_clouds=16.0.0&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.3&bitm_iblock=16.0.4&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.0&bitm_search=16.0.0&bitm_blog=16.5.0&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:13:59 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:13:59 -  - TIME LoadModulesUpdates(request) 0.2 sec
+2016-09-01 06:13:59 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:59 - S - STEP
+2016-09-01 06:13:59 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:13:59 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:13:59 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:13:59 -  - loadFile
+2016-09-01 06:14:00 - U - RETURN
+2016-09-01 06:14:00 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:00 -  - TIME UnGzipArchive 0.033 sec
+2016-09-01 06:14:00 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710440/forum/updater16.5.1.php'
+2016-09-01 06:14:00 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710440/forum/updater16.5.1.php': CopyFiles(install/components, components)
+2016-09-01 06:14:00 -  - TIME UpdateStepModules 0.329 sec
+2016-09-01 06:14:00 - UPD_SUCCESS - Updated: forum (16.5.1)<br><li>Исправлена ошибка, при которой при отправке сообщения в форуме появлялась пустая страница. <li>Исправлена некорректная ссылка на профиль пользователя из списка проголосовавших за сообщение. <li>Незначительные изменения. 
+2016-09-01 06:14:00 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:00 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:00 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.14&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.14&bitm_compression=16.0.0&bitm_clouds=16.0.0&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.3&bitm_iblock=16.0.4&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.1&bitm_search=16.0.0&bitm_blog=16.5.0&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:00 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:00 -  - TIME LoadModulesUpdates(request) 0.214 sec
+2016-09-01 06:14:00 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:00 - S - STEP
+2016-09-01 06:14:00 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:14:01 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:01 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:01 -  - loadFile
+2016-09-01 06:14:01 - U - RETURN
+2016-09-01 06:14:01 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:01 -  - TIME UnGzipArchive 0.035 sec
+2016-09-01 06:14:01 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710441/iblock/updater16.0.5/index.php'
+2016-09-01 06:14:01 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710441/iblock/updater16.0.5/index.php': CopyFiles(install/components, components)
+2016-09-01 06:14:01 -  - TIME UpdateStepModules 0.104 sec
+2016-09-01 06:14:01 - UPD_SUCCESS - Updated: iblock (16.0.5)<br><li>В списке товаров добавлена возможность группового изменения цен. <li>Исправлена ошибка компонента catalog.smart.filter - компонент не позволял фильтровать по значению \'0\'. <li>Исправлены ошибки шаблона компонента catalog.element. <li>Исправлены незначительные ошибки административных страниц.
+2016-09-01 06:14:02 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:02 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:02 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.14&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.14&bitm_compression=16.0.0&bitm_clouds=16.0.0&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.3&bitm_iblock=16.0.5&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.1&bitm_search=16.0.0&bitm_blog=16.5.0&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:02 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:02 -  - TIME LoadModulesUpdates(request) 0.292 sec
+2016-09-01 06:14:02 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:02 - S - STEP
+2016-09-01 06:14:02 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:14:02 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:02 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:02 -  - loadFile
+2016-09-01 06:14:03 - U - RETURN
+2016-09-01 06:14:03 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:03 -  - TIME UnGzipArchive 0.033 sec
+2016-09-01 06:14:03 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710443/iblock/updater16.0.6/index.php'
+2016-09-01 06:14:03 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710443/iblock/updater16.0.6/index.php': CopyFiles(install/components, components)
+2016-09-01 06:14:03 -  - TIME UpdateStepModules 0.071 sec
+2016-09-01 06:14:03 - UPD_SUCCESS - Updated: iblock (16.0.6)<br><li>Улучшена производительность административных страниц со списком элементов инфоблока. <li>Исправлена ошибка создания фасетного индекса. <li>Разработчикам: возможность настройки параметра INSTANT_RELOAD компонента catalog.smart.filter оставлена только в рамках шаблона комплексного компонента catalog. <li>Разработчикам: исправлена сортировка в методе CIBlockElement::GetList при использовании ключа nElementID в параметрах метода. <li>Разработчикам: исправлена ошибка запуска на агенте методов класса CIBlockPriceTools.
+2016-09-01 06:14:03 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:03 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:03 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.14&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.14&bitm_compression=16.0.0&bitm_clouds=16.0.0&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.3&bitm_iblock=16.0.6&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.1&bitm_search=16.0.0&bitm_blog=16.5.0&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:03 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:03 -  - TIME LoadModulesUpdates(request) 0.252 sec
+2016-09-01 06:14:03 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:03 - S - STEP
+2016-09-01 06:14:03 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:14:04 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:04 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:04 -  - loadFile
+2016-09-01 06:14:04 - U - RETURN
+2016-09-01 06:14:04 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:04 -  - TIME UnGzipArchive 0.014 sec
+2016-09-01 06:14:04 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710444/blog/updater16.5.1/index.php'
+2016-09-01 06:14:04 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710444/blog/updater16.5.1/index.php': CopyFiles(install/components, components)
+2016-09-01 06:14:04 -  - TIME UpdateStepModules 0.073 sec
+2016-09-01 06:14:04 - UPD_SUCCESS - Updated: blog (16.5.1)<br><li>Изменения, направленные на поддержку отправки push-уведомлений о сообщениях, адресованных всем сотрудникам корпоративного портала, либо в подразделение. <li>Незначительные изменения и исправления.
+2016-09-01 06:14:04 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:04 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:04 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.14&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.14&bitm_compression=16.0.0&bitm_clouds=16.0.0&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.3&bitm_iblock=16.0.6&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.1&bitm_search=16.0.0&bitm_blog=16.5.1&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:04 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:05 -  - TIME LoadModulesUpdates(request) 0.218 sec
+2016-09-01 06:14:05 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:05 - S - STEP
+2016-09-01 06:14:05 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:14:05 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:05 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:05 -  - loadFile
+2016-09-01 06:14:05 - U - RETURN
+2016-09-01 06:14:05 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:05 -  - TIME UnGzipArchive 0.002 sec
+2016-09-01 06:14:05 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710445/blog/updater16.5.2/index.php'
+2016-09-01 06:14:05 -  - TIME UpdateStepModules 0.003 sec
+2016-09-01 06:14:05 - UPD_SUCCESS - Updated: blog (16.5.2)<br><li>Исправлена ошибка предыдущего обновления, создающая некорректные почтовые уведомления для языков, отличных от русского, немецкого и английского.
+2016-09-01 06:14:05 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:05 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:05 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.14&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.14&bitm_compression=16.0.0&bitm_clouds=16.0.0&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.3&bitm_iblock=16.0.6&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.1&bitm_search=16.0.0&bitm_blog=16.5.2&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:05 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:06 -  - TIME LoadModulesUpdates(request) 0.23 sec
+2016-09-01 06:14:06 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:06 - S - STEP
+2016-09-01 06:14:06 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:14:06 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:06 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:06 -  - loadFile
+2016-09-01 06:14:06 - U - RETURN
+2016-09-01 06:14:06 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:06 -  - TIME UnGzipArchive 0.009 sec
+2016-09-01 06:14:06 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710446/blog/updater16.5.3.php'
+2016-09-01 06:14:06 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710446/blog/updater16.5.3.php': CopyFiles(install/components, components)
+2016-09-01 06:14:06 -  - TIME UpdateStepModules 0.019 sec
+2016-09-01 06:14:06 - UPD_SUCCESS - Updated: blog (16.5.3)<br><li>Комментарии адаптированы под автокомпозитный режим сайта. 
+2016-09-01 06:14:06 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:06 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:06 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.14&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.14&bitm_compression=16.0.0&bitm_clouds=16.0.0&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.3&bitm_iblock=16.0.6&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.1&bitm_search=16.0.0&bitm_blog=16.5.3&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:06 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:07 -  - TIME LoadModulesUpdates(request) 0.234 sec
+2016-09-01 06:14:07 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:07 - S - STEP
+2016-09-01 06:14:07 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:14:07 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:07 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:07 -  - loadFile
+2016-09-01 06:14:07 - U - RETURN
+2016-09-01 06:14:07 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:07 -  - TIME UnGzipArchive 0.003 sec
+2016-09-01 06:14:07 -  - TIME UpdateStepModules 0.005 sec
+2016-09-01 06:14:07 - UPD_SUCCESS - Updated: socialservices (16.5.4)<br><li>Оптимизация процедуры авторизации на bitrix24.net. <li>Оптимизация работы с сервисом propertiesservice. 
+2016-09-01 06:14:07 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:07 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:07 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.14&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.14&bitm_compression=16.0.0&bitm_clouds=16.0.0&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.0.6&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.1&bitm_search=16.0.0&bitm_blog=16.5.3&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:07 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:07 -  - TIME LoadModulesUpdates(request) 0.219 sec
+2016-09-01 06:14:07 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:07 - S - STEP
+2016-09-01 06:14:07 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:14:08 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:08 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:08 -  - loadFile
+2016-09-01 06:14:08 - U - RETURN
+2016-09-01 06:14:08 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:08 -  - TIME UnGzipArchive 0.003 sec
+2016-09-01 06:14:08 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710448/clouds/updater16.0.1.php'
+2016-09-01 06:14:08 -  - TIME UpdateStepModules 0.159 sec
+2016-09-01 06:14:08 - UPD_SUCCESS - Updated: clouds (16.0.1)<br><li>Для облачных хранилищ, основанных на OpenStack, учитывается работа по https. <li>Добавлены события для отслеживания действий с файлами. 
+2016-09-01 06:14:08 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:08 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:08 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.14&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.14&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.0.6&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.1&bitm_search=16.0.0&bitm_blog=16.5.3&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.3&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:08 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:09 -  - TIME LoadModulesUpdates(request) 0.228 sec
+2016-09-01 06:14:09 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:09 - S - STEP
+2016-09-01 06:14:09 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:14:09 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:09 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:09 -  - loadFile
+2016-09-01 06:14:09 - U - RETURN
+2016-09-01 06:14:09 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:09 -  - TIME UnGzipArchive 0.014 sec
+2016-09-01 06:14:09 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710449/mobileapp/updater16.0.4.php'
+2016-09-01 06:14:09 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710449/mobileapp/updater16.0.4.php': CopyFiles(install/components, components)
+2016-09-01 06:14:09 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710449/mobileapp/updater16.0.4.php': CopyFiles(install/js, js)
+2016-09-01 06:14:09 -  - TIME UpdateStepModules 0.023 sec
+2016-09-01 06:14:09 - UPD_SUCCESS - Updated: mobileapp (16.0.4)<br><li>Разработчикам: добавлен API для управления стеком экранов мобильного приложения. <li>Исправлены незначительные ошибки. 
+2016-09-01 06:14:10 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:10 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:10 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.14&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.14&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.0.6&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.1&bitm_search=16.0.0&bitm_blog=16.5.3&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.4&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:10 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:10 -  - TIME LoadModulesUpdates(request) 0.209 sec
+2016-09-01 06:14:10 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:10 - S - STEP
+2016-09-01 06:14:10 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:14:10 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:10 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:10 -  - loadFile
+2016-09-01 06:14:10 - U - RETURN
+2016-09-01 06:14:10 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:10 -  - TIME UnGzipArchive 0.002 sec
+2016-09-01 06:14:10 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710450/mobileapp/updater16.0.5.php'
+2016-09-01 06:14:10 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710450/mobileapp/updater16.0.5.php': CopyFiles(install/js, js)
+2016-09-01 06:14:10 -  - TIME UpdateStepModules 0.005 sec
+2016-09-01 06:14:10 - UPD_SUCCESS - Updated: mobileapp (16.0.5)<br><li>Исправлены незначительные ошибки в мобильных видеозвонках.
+2016-09-01 06:14:10 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:10 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:10 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.14&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.14&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.0.6&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.1&bitm_search=16.0.0&bitm_blog=16.5.3&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:10 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:11 -  - TIME LoadModulesUpdates(request) 0.218 sec
+2016-09-01 06:14:11 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:11 - S - STEP
+2016-09-01 06:14:11 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:14:11 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:11 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:11 -  - loadFile
+2016-09-01 06:14:13 - U - RETURN
+2016-09-01 06:14:13 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:13 -  - TIME UnGzipArchive 0.258 sec
+2016-09-01 06:14:13 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710453/main/updater16.5.0.php'
+2016-09-01 06:14:13 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710453/main/updater16.5.0.php': CopyFiles(install/components, components)
+2016-09-01 06:14:13 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710453/main/updater16.5.0.php': CopyFiles(install/js, js)
+2016-09-01 06:14:13 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710453/main/updater16.5.0.php': Query(drop index UX_B_SITE_TEMPLATE on b_site_template, )
+2016-09-01 06:14:13 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710453/main/updater16.5.0.php': Query(CREATE INDEX ix_site_template_site ON b_site_template (SITE_ID), )
+2016-09-01 06:14:13 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1472710453/main/updater16.5.0.php': Query(ALTER TABLE b_site_template MODIFY TEMPLATE varchar(255) not null, )
+2016-09-01 06:14:13 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710453/forum/updater16.5.2.php'
+2016-09-01 06:14:13 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710453/forum/updater16.5.2.php': CopyFiles(install/components, components)
+2016-09-01 06:14:13 -  - TIME UpdateStepModules 0.529 sec
+2016-09-01 06:14:14 - UPD_SUCCESS - Updated: main (16.5.0)<br><li>Исправлен ряд интерфейсных ошибок. <li>Доработан ряд компонентов для поддержки режима автокомпозита. <li>Разработчикам: изменен внешний вид BX.PopupWindow. 
+2016-09-01 06:14:14 - UPD_SUCCESS - Updated: forum (16.5.2)<br><li>Незначительные изменения. 
+2016-09-01 06:14:14 - UPD_SUCCESS - Updated: blog (16.5.4)<br><li>Поддержка изменений в текстовом парсере главного модуля.
+2016-09-01 06:14:14 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:14 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:14 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.0&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.0&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.0.6&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.4&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:14 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:14 -  - TIME LoadModulesUpdates(request) 0.188 sec
+2016-09-01 06:14:14 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:14 - S - STEP
+2016-09-01 06:14:14 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:14:14 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:14 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:14 -  - loadFile
+2016-09-01 06:14:15 - U - RETURN
+2016-09-01 06:14:15 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:15 -  - TIME UnGzipArchive 0.051 sec
+2016-09-01 06:14:15 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710455/main/updater16.5.1.php'
+2016-09-01 06:14:15 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710455/main/updater16.5.1.php': CopyFiles(install/components, components)
+2016-09-01 06:14:15 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710455/main/updater16.5.1.php': CopyFiles(install/js, js)
+2016-09-01 06:14:15 -  - TIME UpdateStepModules 0.137 sec
+2016-09-01 06:14:15 - UPD_SUCCESS - Updated: main (16.5.1)<br><li>Поддержка функционала дел-сообщений живой ленты CRM. <li>Парсинг BB-кода USER реализован в классе CTextParser. 
+2016-09-01 06:14:16 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:16 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:16 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.1&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.1&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.0.6&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.4&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:16 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:16 -  - TIME LoadModulesUpdates(request) 0.197 sec
+2016-09-01 06:14:16 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:16 - S - STEP
+2016-09-01 06:14:16 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:14:16 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:16 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:16 -  - loadFile
+2016-09-01 06:14:16 - U - RETURN
+2016-09-01 06:14:16 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:16 -  - TIME UnGzipArchive 0.001 sec
+2016-09-01 06:14:16 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710456/main/updater16.5.2.php'
+2016-09-01 06:14:16 -  - TIME UpdateStepModules 0.006 sec
+2016-09-01 06:14:16 - UPD_SUCCESS - Updated: main (16.5.2)<br><li>Обработка нового типа событий интернет-магазина.
+2016-09-01 06:14:17 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:17 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:17 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.2&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.2&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.0.6&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.4&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:17 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:17 -  - TIME LoadModulesUpdates(request) 0.212 sec
+2016-09-01 06:14:17 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:17 - S - STEP
+2016-09-01 06:14:17 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:14:17 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:17 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:17 -  - loadFile
+2016-09-01 06:14:19 - U - RETURN
+2016-09-01 06:14:19 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:19 -  - TIME UnGzipArchive 0.077 sec
+2016-09-01 06:14:19 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710459/main/updater16.5.3.php'
+2016-09-01 06:14:19 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710459/main/updater16.5.3.php': CopyFiles(install/components, components)
+2016-09-01 06:14:19 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710459/main/updater16.5.3.php': CopyFiles(install/js, js)
+2016-09-01 06:14:19 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710459/main/updater16.5.3.php': CopyFiles(install/panel, panel)
+2016-09-01 06:14:19 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710459/main/updater16.5.3.php': CopyFiles(install/images, images)
+2016-09-01 06:14:19 -  - TIME UpdateStepModules 0.108 sec
+2016-09-01 06:14:19 - UPD_SUCCESS - Updated: main (16.5.3)<br><li>Реализована новая стратегия обновления кеша: кеш перестраивается только одним процессом, а остальные получают сохраненные ранее данные. <li>АвтоКомпозит: новый интерфейс настройки. <li>Композит: возвращена настройка \"а также страницы, содержащие только следующие параметры\". <li>Исправлен ряд интерфейсных ошибок. <li>Исправления в библиотеке core.js. <li>Разработчикам: добавлены события OnAfterUserTypeUpdate, OnAfterUserTypeDelete. <li>Разработчикам: в core.js добавлена функция BX.setCookie. 
+2016-09-01 06:14:19 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:19 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:19 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.3&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.3&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.0.6&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.4&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:19 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:19 -  - TIME LoadModulesUpdates(request) 0.204 sec
+2016-09-01 06:14:19 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:19 - S - STEP
+2016-09-01 06:14:19 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:14:20 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:20 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:20 -  - loadFile
+2016-09-01 06:14:20 - U - RETURN
+2016-09-01 06:14:20 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:20 -  - TIME UnGzipArchive 0.054 sec
+2016-09-01 06:14:20 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710460/main/updater16.5.4.php'
+2016-09-01 06:14:20 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710460/main/updater16.5.4.php': CopyFiles(install/components, components)
+2016-09-01 06:14:21 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710460/main/updater16.5.4.php': CopyFiles(install/js, js)
+2016-09-01 06:14:21 -  - TIME UpdateStepModules 0.093 sec
+2016-09-01 06:14:21 - UPD_SUCCESS - Updated: main (16.5.4)<br><li>Добавлена карта скорости сайта по географии посетителей. <li>Поддержка использования контактов CRM как почтовых пользователей. <li>Исправление ошибок. <li>Разработчикам: новый оператор фильтра ORM \'==\' для булевых выражений. 
+2016-09-01 06:14:21 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:21 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:21 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.0.6&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.4&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:21 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:21 -  - TIME LoadModulesUpdates(request) 0.18 sec
+2016-09-01 06:14:21 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:21 - S - STEP
+2016-09-01 06:14:21 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:14:21 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:21 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:21 -  - loadFile
+2016-09-01 06:14:22 - U - RETURN
+2016-09-01 06:14:22 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:22 -  - TIME UnGzipArchive 0.036 sec
+2016-09-01 06:14:22 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710462/iblock/updater16.5.0/index.php'
+2016-09-01 06:14:22 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710462/iblock/updater16.5.0/index.php': CopyFiles(install/components, components)
+2016-09-01 06:14:22 -  - TIME UpdateStepModules 0.116 sec
+2016-09-01 06:14:22 - UPD_SUCCESS - Updated: iblock (16.5.0)<br><li>В шаблонах компонент catalog, catalog.element, catalog.section, catalog.top изменен js-код показа всплывающих окон для поддержки нового дизайна BX.PopupWindow.
+2016-09-01 06:14:22 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:22 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:22 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.0&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.4&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:22 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:23 -  - TIME LoadModulesUpdates(request) 0.192 sec
+2016-09-01 06:14:23 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:23 - S - STEP
+2016-09-01 06:14:23 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:14:23 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:23 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:23 -  - loadFile
+2016-09-01 06:14:24 - U - RETURN
+2016-09-01 06:14:24 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:24 -  - TIME UnGzipArchive 0.057 sec
+2016-09-01 06:14:24 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710464/iblock/updater16.5.1/index.php'
+2016-09-01 06:14:24 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710464/iblock/updater16.5.1/index.php': CopyFiles(install/components, components)
+2016-09-01 06:14:24 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710464/iblock/updater16.5.1/index.php': CopyFiles(install/js, js)
+2016-09-01 06:14:24 -  - TIME UpdateStepModules 0.114 sec
+2016-09-01 06:14:24 - UPD_SUCCESS - Updated: iblock (16.5.1)<br><li>Исправлена ошибка сохранения анонса и детального описания при копировании торгового предложения в форме редактирования товара. <li>Исправлена ошибка шаблона компонента catalog.compare.result (при добавлении одного товара не показывались его поля). <li>Исправлена ошибка вывода значений свойств в генераторе торговых предложений. <li>Исправлена ошибка фильтрации по диапазону с нулевой границей в компоненте catalog.smart.filter. <li>Исправлена ошибка фильтрации по нулевой цене в компоненте catalog.smart.filter.
+2016-09-01 06:14:24 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:24 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:24 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.1&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.4&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:24 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:24 -  - TIME LoadModulesUpdates(request) 0.221 sec
+2016-09-01 06:14:24 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:24 - S - STEP
+2016-09-01 06:14:24 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:14:25 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:25 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:25 -  - loadFile
+2016-09-01 06:14:25 - U - RETURN
+2016-09-01 06:14:25 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:25 -  - TIME UnGzipArchive 0.038 sec
+2016-09-01 06:14:25 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710465/iblock/updater16.5.2/index.php'
+2016-09-01 06:14:25 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710465/iblock/updater16.5.2/index.php': CopyFiles(install/components, components)
+2016-09-01 06:14:25 -  - TIME UpdateStepModules 0.054 sec
+2016-09-01 06:14:25 - UPD_SUCCESS - Updated: iblock (16.5.2)<br><li>Добавлена кнопка подписки на товар в компонентах каталога. <li>Добавлена колонка с количеством подписок на товар в списке товаров административной части.
+2016-09-01 06:14:26 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:26 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:26 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.4&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:26 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:26 -  - TIME LoadModulesUpdates(request) 0.226 sec
+2016-09-01 06:14:26 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:26 - S - STEP
+2016-09-01 06:14:26 - LMU01 - LoadModulesUpdates-Step
+2016-09-01 06:14:26 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:26 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:26 -  - loadFile
+2016-09-01 06:14:27 - U - RETURN
+2016-09-01 06:14:27 -  - exec CUpdateClient::UnGzipArchive
+2016-09-01 06:14:27 -  - TIME UnGzipArchive 0.014 sec
+2016-09-01 06:14:27 - CSURUS1 - Run updater '/bitrix/updates/update_m1472710467/blog/updater16.5.5.php'
+2016-09-01 06:14:27 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710467/blog/updater16.5.5.php': CopyFiles(install/components, components)
+2016-09-01 06:14:27 -  - TIME UpdateStepModules 0.025 sec
+2016-09-01 06:14:27 - UPD_SUCCESS - Updated: blog (16.5.5)<br><li>Исправлена ошибка некорректного расчета прав на доступ к проиндексированному поисковому контенту сообщений рабочих групп для их владельцев и модераторов. <li>Поддержка использования контактов CRM, как почтовых пользователей.
+2016-09-01 06:14:27 -  - exec CUpdateClient::LoadModulesUpdates
+2016-09-01 06:14:27 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:14:27 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:14:27 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:14:27 -  - TIME LoadModulesUpdates(request) 0.229 sec
+2016-09-01 06:14:27 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:14:27 - STEP - Finish - NOUPDATES
+2016-09-01 06:14:27 - STEP - Finish - NOUPDATES
+2016-09-01 06:15:50 -  - exec CUpdateClient::ActivateCoupon
+2016-09-01 06:15:50 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:15:50 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&coupon=MPX-417VMC642I-3QGH7M2ZHG&query_type=coupon
+2016-09-01 06:15:50 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:15:50 -  - TIME ActivateCoupon(request) 0.251 sec
+2016-09-01 06:15:50 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:15:50 - UPD_SUCCESS - Coupon activated
+2016-09-01 06:15:52 -  - exec CUpdateClient::GetUpdatesList
+2016-09-01 06:15:52 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:15:52 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-09-01 06:15:52 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:15:52 -  - TIME GetUpdatesList(request) 0.246 sec
+2016-09-01 06:15:52 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:16:39 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710599/aspro.stroy/updater1.0.1.php': CopyFiles(install, modules/aspro.stroy/install)
+2016-09-01 06:16:39 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1472710599/aspro.stroy/updater1.0.1.php': CopyFiles(install/wizards, wizards)
+2016-09-01 06:17:46 -  - exec CUpdateClient::GetUpdatesList
+2016-09-01 06:17:46 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:17:46 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-09-01 06:17:46 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:17:46 -  - TIME GetUpdatesList(request) 0.203 sec
+2016-09-01 06:17:46 -  - exec CUpdateClient::ParseServerData
+2016-09-01 06:27:10 -  - exec CUpdateClient::GetUpdatesList
+2016-09-01 06:27:10 -  - exec CUpdateClient::CollectRequestData
+2016-09-01 06:27:10 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-09-01 06:27:10 -  - exec CUpdateClient::GetHTTPPage
+2016-09-01 06:27:10 -  - TIME GetUpdatesList(request) 0.211 sec
+2016-09-01 06:27:10 -  - exec CUpdateClient::ParseServerData
+2016-09-27 01:45:18 -  - exec CUpdateClient::GetUpdatesList
+2016-09-27 01:45:18 -  - exec CUpdateClient::CollectRequestData
+2016-09-27 01:45:18 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-09-27 01:45:18 -  - exec CUpdateClient::GetHTTPPage
+2016-09-27 01:45:18 -  - TIME GetUpdatesList(request) 0.225 sec
+2016-09-27 01:45:18 -  - exec CUpdateClient::ParseServerData
+2016-10-18 11:20:01 -  - exec CUpdateClient::GetUpdatesList
+2016-10-18 11:20:01 -  - exec CUpdateClient::CollectRequestData
+2016-10-18 11:20:01 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-10-18 11:20:01 -  - exec CUpdateClient::GetHTTPPage
+2016-10-18 11:20:02 -  - TIME GetUpdatesList(request) 0.331 sec
+2016-10-18 11:20:02 -  - exec CUpdateClient::ParseServerData
+2016-11-06 13:22:05 -  - exec CUpdateClient::GetUpdatesList
+2016-11-06 13:22:05 -  - exec CUpdateClient::CollectRequestData
+2016-11-06 13:22:05 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-11-06 13:22:05 -  - exec CUpdateClient::GetHTTPPage
+2016-11-06 13:22:06 -  - TIME GetUpdatesList(request) 0.354 sec
+2016-11-06 13:22:06 -  - exec CUpdateClient::ParseServerData
+2016-11-06 13:22:22 -  - exec CUpdateClient::GetUpdatesList
+2016-11-06 13:22:22 -  - exec CUpdateClient::CollectRequestData
+2016-11-06 13:22:22 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-11-06 13:22:22 -  - exec CUpdateClient::GetHTTPPage
+2016-11-06 13:22:23 -  - TIME GetUpdatesList(request) 0.2 sec
+2016-11-06 13:22:23 -  - exec CUpdateClient::ParseServerData
+2016-11-14 11:35:23 -  - exec CUpdateClient::GetUpdatesList
+2016-11-14 11:35:23 -  - exec CUpdateClient::CollectRequestData
+2016-11-14 11:35:23 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-11-14 11:35:23 -  - exec CUpdateClient::GetHTTPPage
+2016-11-14 11:35:24 -  - TIME GetUpdatesList(request) 0.307 sec
+2016-11-14 11:35:24 -  - exec CUpdateClient::ParseServerData
+2016-11-19 08:23:17 -  - exec CUpdateClient::GetUpdatesList
+2016-11-19 08:23:17 -  - exec CUpdateClient::CollectRequestData
+2016-11-19 08:23:17 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-11-19 08:23:17 -  - exec CUpdateClient::GetHTTPPage
+2016-11-19 08:23:17 -  - TIME GetUpdatesList(request) 0.238 sec
+2016-11-19 08:23:17 -  - exec CUpdateClient::ParseServerData
+2016-11-19 08:32:58 -  - exec CUpdateClient::GetUpdatesList
+2016-11-19 08:32:58 -  - exec CUpdateClient::CollectRequestData
+2016-11-19 08:32:58 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-11-19 08:32:58 -  - exec CUpdateClient::GetHTTPPage
+2016-11-19 08:32:58 -  - TIME GetUpdatesList(request) 0.201 sec
+2016-11-19 08:32:58 -  - exec CUpdateClient::ParseServerData
+2016-11-19 08:45:23 -  - exec CUpdateClient::GetUpdatesList
+2016-11-19 08:45:23 -  - exec CUpdateClient::CollectRequestData
+2016-11-19 08:45:23 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-11-19 08:45:23 -  - exec CUpdateClient::GetHTTPPage
+2016-11-19 08:45:23 -  - TIME GetUpdatesList(request) 0.19 sec
+2016-11-19 08:45:23 -  - exec CUpdateClient::ParseServerData
+2016-11-19 08:46:37 -  - exec CUpdateClient::GetUpdatesList
+2016-11-19 08:46:37 -  - exec CUpdateClient::CollectRequestData
+2016-11-19 08:46:37 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-11-19 08:46:37 -  - exec CUpdateClient::GetHTTPPage
+2016-11-19 08:46:37 -  - TIME GetUpdatesList(request) 0.173 sec
+2016-11-19 08:46:37 -  - exec CUpdateClient::ParseServerData
+2016-11-19 08:51:57 -  - exec CUpdateClient::GetUpdatesList
+2016-11-19 08:51:57 -  - exec CUpdateClient::CollectRequestData
+2016-11-19 08:51:57 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-11-19 08:51:57 -  - exec CUpdateClient::GetHTTPPage
+2016-11-19 08:51:57 -  - TIME GetUpdatesList(request) 0.182 sec
+2016-11-19 08:51:57 -  - exec CUpdateClient::ParseServerData
+2016-11-20 05:42:25 -  - exec CUpdateClient::GetUpdatesList
+2016-11-20 05:42:25 -  - exec CUpdateClient::CollectRequestData
+2016-11-20 05:42:25 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-11-20 05:42:25 -  - exec CUpdateClient::GetHTTPPage
+2016-11-20 05:42:26 -  - TIME GetUpdatesList(request) 0.291 sec
+2016-11-20 05:42:26 -  - exec CUpdateClient::ParseServerData
+2016-11-20 06:03:31 -  - exec CUpdateClient::GetUpdatesList
+2016-11-20 06:03:31 -  - exec CUpdateClient::CollectRequestData
+2016-11-20 06:03:31 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-11-20 06:03:31 -  - exec CUpdateClient::GetHTTPPage
+2016-11-20 06:03:32 -  - TIME GetUpdatesList(request) 0.182 sec
+2016-11-20 06:03:32 -  - exec CUpdateClient::ParseServerData
+2016-11-22 01:30:56 -  - exec CUpdateClient::GetUpdatesList
+2016-11-22 01:30:56 -  - exec CUpdateClient::CollectRequestData
+2016-11-22 01:30:56 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-11-22 01:30:56 -  - exec CUpdateClient::GetHTTPPage
+2016-11-22 01:30:56 -  - TIME GetUpdatesList(request) 0.29 sec
+2016-11-22 01:30:56 -  - exec CUpdateClient::ParseServerData
+2016-11-23 08:07:59 -  - exec CUpdateClient::GetUpdatesList
+2016-11-23 08:07:59 -  - exec CUpdateClient::CollectRequestData
+2016-11-23 08:07:59 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-11-23 08:07:59 -  - exec CUpdateClient::GetHTTPPage
+2016-11-23 08:07:59 -  - TIME GetUpdatesList(request) 0.216 sec
+2016-11-23 08:07:59 -  - exec CUpdateClient::ParseServerData
+2016-11-25 07:42:28 -  - exec CUpdateClient::GetUpdatesList
+2016-11-25 07:42:28 -  - exec CUpdateClient::CollectRequestData
+2016-11-25 07:42:28 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-11-25 07:42:28 -  - exec CUpdateClient::GetHTTPPage
+2016-11-25 07:42:29 -  - TIME GetUpdatesList(request) 0.268 sec
+2016-11-25 07:42:29 -  - exec CUpdateClient::ParseServerData
+2016-11-25 07:54:50 -  - exec CUpdateClient::GetUpdatesList
+2016-11-25 07:54:50 -  - exec CUpdateClient::CollectRequestData
+2016-11-25 07:54:50 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-11-25 07:54:50 -  - exec CUpdateClient::GetHTTPPage
+2016-11-25 07:54:50 -  - TIME GetUpdatesList(request) 0.205 sec
+2016-11-25 07:54:50 -  - exec CUpdateClient::ParseServerData
+2016-11-25 07:55:24 -  - exec CUpdateClient::GetUpdatesList
+2016-11-25 07:55:24 -  - exec CUpdateClient::CollectRequestData
+2016-11-25 07:55:24 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-11-25 07:55:24 -  - exec CUpdateClient::GetHTTPPage
+2016-11-25 07:55:24 -  - TIME GetUpdatesList(request) 0.199 sec
+2016-11-25 07:55:24 -  - exec CUpdateClient::ParseServerData
+2016-11-28 09:28:00 -  - exec CUpdateClient::GetUpdatesList
+2016-11-28 09:28:00 -  - exec CUpdateClient::CollectRequestData
+2016-11-28 09:28:00 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-11-28 09:28:00 -  - exec CUpdateClient::GetHTTPPage
+2016-11-28 09:28:00 -  - TIME GetUpdatesList(request) 0.585 sec
+2016-11-28 09:28:00 -  - exec CUpdateClient::ParseServerData
+2016-11-28 10:35:42 -  - exec CUpdateClient::GetUpdatesList
+2016-11-28 10:35:42 -  - exec CUpdateClient::CollectRequestData
+2016-11-28 10:35:43 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-11-28 10:35:43 -  - exec CUpdateClient::GetHTTPPage
+2016-11-28 10:35:43 -  - TIME GetUpdatesList(request) 0.175 sec
+2016-11-28 10:35:43 -  - exec CUpdateClient::ParseServerData
+2016-11-30 07:14:39 -  - exec CUpdateClient::GetUpdatesList
+2016-11-30 07:14:39 -  - exec CUpdateClient::CollectRequestData
+2016-11-30 07:14:39 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-11-30 07:14:39 -  - exec CUpdateClient::GetHTTPPage
+2016-11-30 07:14:39 -  - TIME GetUpdatesList(request) 0.241 sec
+2016-11-30 07:14:39 -  - exec CUpdateClient::ParseServerData
+2016-12-01 10:50:22 -  - exec CUpdateClient::GetUpdatesList
+2016-12-01 10:50:22 -  - exec CUpdateClient::CollectRequestData
+2016-12-01 10:50:22 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-12-01 10:50:22 -  - exec CUpdateClient::GetHTTPPage
+2016-12-01 10:50:22 -  - TIME GetUpdatesList(request) 0.21 sec
+2016-12-01 10:50:22 -  - exec CUpdateClient::ParseServerData
+2016-12-04 02:15:06 -  - exec CUpdateClient::GetUpdatesList
+2016-12-04 02:15:06 -  - exec CUpdateClient::CollectRequestData
+2016-12-04 02:15:06 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bais.megamir38.ru&CHHB=bais.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2016-12-04 02:15:06 -  - exec CUpdateClient::GetHTTPPage
+2016-12-04 02:15:06 -  - TIME GetUpdatesList(request) 0.274 sec
+2016-12-04 02:15:06 -  - exec CUpdateClient::ParseServerData
+2017-02-08 09:07:06 -  - exec CUpdateClient::GetUpdatesList
+2017-02-08 09:07:06 -  - exec CUpdateClient::CollectRequestData
+2017-02-08 09:07:06 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=test6.1cbmmit.ru&CHHB=test6.1cbmmit.ru&CSAB=194.58.89.160&CANGZIP=Y&CLIENT_PHPVER=5.5.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_highloadblock=16.0.2&bitm_security=16.0.3&bitm_mobileapp=16.0.5&bitm_search=16.0.0&bitm_perfmon=16.0.0&bitm_iblock=16.5.2&bitm_vote=15.5.0&bitm_form=15.0.2&bitm_forum=16.5.2&bitm_fileman=16.5.4&bitm_compression=16.0.0&bitm_subscribe=16.0.0&bitm_socialservices=16.5.4&bitm_blog=16.5.5&bitm_scale=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_translate=14.5.0&bitm_photogallery=16.0.1&bitm_bitrixcloud=16.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-02-08 09:07:06 -  - exec CUpdateClient::GetHTTPPage
+2017-02-08 09:07:06 -  - TIME GetUpdatesList(request) 0.199 sec
+2017-02-08 09:07:06 -  - exec CUpdateClient::ParseServerData
+2017-07-11 12:22:01 -  - exec CUpdateClient::GetUpdatesList
+2017-07-11 12:22:01 -  - exec CUpdateClient::CollectRequestData
+2017-07-11 12:22:01 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=test6.1cbmmit.ru&CHHB=test6.1cbmmit.ru&CSAB=37.140.192.103&CANGZIP=Y&CLIENT_PHPVER=5.5.38&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_highloadblock=16.0.2&bitm_security=16.0.3&bitm_mobileapp=16.0.5&bitm_search=16.0.0&bitm_perfmon=16.0.0&bitm_iblock=16.5.2&bitm_vote=15.5.0&bitm_form=15.0.2&bitm_forum=16.5.2&bitm_fileman=16.5.4&bitm_compression=16.0.0&bitm_subscribe=16.0.0&bitm_socialservices=16.5.4&bitm_blog=16.5.5&bitm_scale=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_translate=14.5.0&bitm_photogallery=16.0.1&bitm_bitrixcloud=16.0.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y
+2017-07-11 12:22:01 -  - exec CUpdateClient::GetHTTPPage
+2017-07-11 12:22:02 -  - TIME GetUpdatesList(request) 0.46 sec
+2017-07-11 12:22:02 -  - exec CUpdateClient::ParseServerData
+2018-04-06 07:32:30 -  - exec CUpdateClient::GetUpdatesList
+2018-04-06 07:32:30 -  - exec CUpdateClient::CollectRequestData
+2018-04-06 07:32:30 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=test41.megamir38.ru&CHHB=test41.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2018-04-06 07:32:30 -  - exec CUpdateClient::GetHTTPPage
+2018-04-06 07:32:31 -  - TIME GetUpdatesList(request) 0.247 sec
+2018-04-06 07:32:31 -  - exec CUpdateClient::ParseServerData
+2018-04-06 07:34:12 -  - exec CUpdateClient::GetUpdatesList
+2018-04-06 07:34:12 -  - exec CUpdateClient::CollectRequestData
+2018-04-06 07:34:12 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=test41.megamir38.ru&CHHB=test41.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2018-04-06 07:34:12 -  - exec CUpdateClient::GetHTTPPage
+2018-04-06 07:34:13 -  - TIME GetUpdatesList(request) 0.18 sec
+2018-04-06 07:34:13 -  - exec CUpdateClient::ParseServerData
+2018-04-06 07:50:34 -  - exec CUpdateClient::GetUpdatesList
+2018-04-06 07:50:34 -  - exec CUpdateClient::CollectRequestData
+2018-04-06 07:50:34 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=test41.megamir38.ru&CHHB=test41.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2018-04-06 07:50:34 -  - exec CUpdateClient::GetHTTPPage
+2018-04-06 07:50:34 -  - TIME GetUpdatesList(request) 0.197 sec
+2018-04-06 07:50:34 -  - exec CUpdateClient::ParseServerData
+2018-04-06 11:00:05 -  - exec CUpdateClient::GetUpdatesList
+2018-04-06 11:00:05 -  - exec CUpdateClient::CollectRequestData
+2018-04-06 11:00:05 -  - LICENSE_KEY=X&lang=en&SUPD_VER=16.0.12&VERSION=16.5.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=test41.megamir38.ru&CHHB=test41.megamir38.ru&CSAB=37.140.192.190&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_compression=16.0.0&bitm_clouds=16.0.1&bitm_seo=16.0.3&bitm_scale=16.0.0&bitm_perfmon=16.0.0&bitm_highloadblock=16.0.2&bitm_socialservices=16.5.4&bitm_iblock=16.5.2&bitm_translate=14.5.0&bitm_security=16.0.3&bitm_bitrixcloud=16.0.0&bitm_forum=16.5.2&bitm_search=16.0.0&bitm_blog=16.5.5&bitm_form=15.0.2&bitm_fileman=16.5.4&bitm_subscribe=16.0.0&bitm_photogallery=16.0.1&bitm_mobileapp=16.0.5&bitm_vote=15.5.0&bitl_ru=&bitl_en=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2018-04-06 11:00:05 -  - exec CUpdateClient::GetHTTPPage
+2018-04-06 11:00:05 -  - TIME GetUpdatesList(request) 0.308 sec
+2018-04-06 11:00:05 -  - exec CUpdateClient::ParseServerData
